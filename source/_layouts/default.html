@@ -2,14 +2,14 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
   <div class="wrapper">
-    <header>
+    <header class="site-header">
       {% include header.html %}
       <!-- <nav>{% include navigation.html %}</nav> -->
     </header>
     <section>
       {{ content | expand_urls: root_url }}
     </section>
-    <footer>{% include footer.html %}</footer>
+    <footer class="site-footer">{% include footer.html %}</footer>
   </div>
   {% include after_footer.html %}
 </body>
