@@ -1,29 +1,34 @@
 ---
 layout: default
+title: home
+description: "something"
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+<section>
+  <h3>My deal</h3>
+
+  <p><a href="http://babson.edu">Business student</a> by training, <a href=
+  "http://github.com/jmondo">Rails dev</a> by practice. Smart, fun guy to work with.</p>
+
+  <p>For best results, combine me with:<br />
+  3 parts awesome team, 2 parts learning, 1 part travel</p>
+
+  <p class="see-more"><a href="/cv.html">cv &rarr;</a></p>
+</section>
+
+<section>
+  <h3>From the blog</h3>
+  <h4>First blog post</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. <a href="#">More</a>.</p>
+
+  <h4>Second blog post</h4>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <a href="#">More</a>.</p>
+
+  <p class="see-more"><a href="/blog/">posts &rarr;</a></p>
+</section>
