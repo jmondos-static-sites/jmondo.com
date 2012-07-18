@@ -279,3 +279,11 @@ hr {
 .see-more {
   text-align: right;
 }
+.blog-index {
+  article {
+    margin-top: 70px;
+  }
+  article:first-child {
+    margin-top: 0;
+  }
+}
