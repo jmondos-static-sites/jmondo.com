@@ -19,7 +19,7 @@ description: Business student by training, Rails dev by practice.
 <section>
   <h3>From the blog</h3>
 
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts limit: 2 %}
   {% assign content = post.content %}
     <article>
       {% include article_snippet.html %}

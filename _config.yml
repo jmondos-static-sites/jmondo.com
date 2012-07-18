@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://jmondo.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: jmondo
+subtitle: "Things. From the perspective of a bizman + engineer + traveler."
+author: John Gesimondo
 simple_search: http://google.com/search
-description:
+description: "Things. From the perspective of a bizman + engineer + traveler."
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins
