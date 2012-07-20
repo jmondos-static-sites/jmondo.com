@@ -10,10 +10,10 @@ use Rack::Rewrite do
   r301 %r{^/on-postal-codes$},                                '/blog/on-postal-codes/'
   r301 %r{^/the-new-best-travel-story-ever-jetblue-big-bu$},  '/blog/the-new-best-travel-story-ever-jetblue/'
   r301 %r{^/7-reasons-why-im-blogging-and-why-you-should$},   '/blog/7-reasons-why-i-blog-and-why-you-should-too/'
-  r301 %r{^/one-direction-these-kids-can-sing$},              '/blog/2009/05/27/memorial-cup-2009/'
-  r301 %r{^/napping-in-traffic$},                             '/blog/2009/05/27/memorial-cup-2009/'
-  r301 %r{^/uruguayargentina-reflection$},                    '/blog/2009/05/27/memorial-cup-2009/'
-  r301 %r{^/power-plug-spanish-attempt$},                     '/blog/2009/05/27/memorial-cup-2009/'
+  r301 %r{^/one-direction-these-kids-can-sing$},              '/blog/one-direction-these-kids-can-sing//'
+  r301 %r{^/napping-in-traffic$},                             '/blog/proposal-napping-in-traffic/'
+  r301 %r{^/uruguayargentina-reflection$},                    '/blog/uruguay-argentina-reflection/'
+  r301 %r{^/power-plug-spanish-attempt$},                     '/blog/in-flight-power-struggles-and-spanish-ftw/'
 end
 
 
