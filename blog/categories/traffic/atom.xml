@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: traffic | jmondo]]></title>
+  <link href="http://jmondo.github.com/blog/categories/traffic/atom.xml" rel="self"/>
+  <link href="http://jmondo.github.com/"/>
+  <updated>2012-07-20T00:15:46-04:00</updated>
+  <id>http://jmondo.github.com/</id>
+  <author>
+    <name><![CDATA[John Gesimondo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Proposal: Napping in traffic]]></title>
+    <link href="http://jmondo.github.com/blog/proposal-napping-in-traffic/"/>
+    <updated>2012-04-09T22:19:00-04:00</updated>
+    <id>http://jmondo.github.com/blog/proposal-napping-in-traffic</id>
+    <content type="html"><![CDATA[<h2>Background</h2>
+
+<p>I realize that it's not overly economical to dedicate resources to this problem, but wouldn't it be better if traffic worked like this:</p>
+
+<p>Think about the cape cod bridges, right? If you don't know, every weekend in all but winter, both bridges (the only way to cape cod) are backed up for 3-5 miles going toward the cape of Friday/Saturday and back on Sunday. 2-3 lane highways lead up to this point, so all the cars stop on the highway.</p>
+
+<p><img src="/images/napping-in-traffic-1.jpeg" alt="cars in traffic" />
+<img src="/images/napping-in-traffic.jpeg" alt="traffic on bridge" /></p>
+
+<h2>Problem:</h2>
+
+<p>Ok. So thousands(?) of cars stopped on a highway. You drive one of those cars. You have two priorities -</p>
+
+<ol>
+<li>turn the car off</li>
+<li>be productive (even if that means napping)</li>
+</ol>
+
+
+<p>But you can't do either of those things, because you have to inch forward every 10 seconds. If you don't, you'll give up your spot in the 3 mile (9 mile if you put everyone single file) line.</p>
+
+<h2>Solution:</h2>
+
+<p>Can't we just throw some traffic lights 3 miles away from the bridge? Put up a green light except Fridays. When the speed of cars passing under the light is &lt; 10 mph, change to red. Show a giant minute countdown (just like those pedestrian ones) and always make it the same number of minutes. People turn off their cars, sleep, play card games, and go about their improved travel lives.</p>
+
+<p>Better, right? Post problems with my theory below.</p>
+]]></content>
+  </entry>
+  
+</feed>

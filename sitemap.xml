@@ -1,11 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://jmondo.github.com/blog/in-flight-power-struggles-and-spanish-ftw/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/uruguay-argentina-reflection/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/proposal-napping-in-traffic/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/the-new-best-travel-story-ever-jetblue/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/7-reasons-why-i-blog-and-why-you-should-too/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/one-direction-these-kids-can-sing/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/on-postal-codes/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://jmondo.github.com/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/
+        </loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://jmondo.github.com/blog/archives/</loc>
-        <lastmod>2012-07-14T12:38:21-04:00</lastmod>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/blog/</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmondo.github.com/cv.html</loc>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
     </url>
     <url>
         <loc>http://jmondo.github.com/</loc>
-        <lastmod>2012-07-14T12:38:21-04:00</lastmod>
+        <lastmod>2012-07-20T00:14:43-04:00</lastmod>
     </url>
 </urlset>

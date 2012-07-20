@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: random | jmondo]]></title>
+  <link href="http://jmondo.github.com/blog/categories/random/atom.xml" rel="self"/>
+  <link href="http://jmondo.github.com/"/>
+  <updated>2012-07-20T00:15:46-04:00</updated>
+  <id>http://jmondo.github.com/</id>
+  <author>
+    <name><![CDATA[John Gesimondo]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On Postal Codes]]></title>
+    <link href="http://jmondo.github.com/blog/on-postal-codes/"/>
+    <updated>2012-07-12T13:30:00-04:00</updated>
+    <id>http://jmondo.github.com/blog/on-postal-codes</id>
+    <content type="html"><![CDATA[<p>I'm importing all US postal codes into a database for a geolocation app. While the data was importing I did some scanning. Fun facts:
+* Holtsville, NY is the only postal code that starts with 00. (00501)</p>
+
+<p>According to Wikipedia, that's the IRS's fault. They have a tax processing center there and they have the lowest postal code. And since I (and the wiki editor) put them in the same sentence you will assume causation.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Holtsville,_New_York">http://en.wikipedia.org/wiki/Holtsville,_New_York</a></p>
+
+<p>The rest of the facts aren't that fun, so I've omitted them.</p>
+
+<p>Postal codes: <a href="http://www.maxmind.com/location_postal.csv">http://www.maxmind.com/location_postal.csv</a></p>
+]]></content>
+  </entry>
+  
+</feed>
