@@ -4,7 +4,7 @@ title: "Orderly gem: Assert sort order in acceptance tests"
 date: 2012-07-21 20:03
 comments: true
 categories: dev
-description:
+description: Because sometimes you just need to assert that this appears before that on a page. There are many ways to do this, and I've tried lots of them in my work with LaunchWare. Most of them were ugly, clunky, brittle, or inefficient.
 ---
 Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.
 
