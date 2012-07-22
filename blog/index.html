@@ -9,7 +9,7 @@
   <meta name="author" content="John Gesimondo">
 
   
-  <meta name="description" content="Geolocation I&#8217;ve been working on WhatNext, a social network for the cancer community via LaunchWare. And this week, the site got some &hellip;">
+  <meta name="description" content="Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order. For more explanation, derivation, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,6 +30,18 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33563876-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 
   <!--[if lt IE 9]>
@@ -63,6 +75,64 @@
     <section>
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/orderly-gem-assert-sort-order-in-acceptance-tests/">Orderly Gem: Assert Sort Order in Acceptance Tests</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-21T20:03:00-04:00" pubdate data-updated="true">Jul 21<span>st</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.</p>
+
+<p>For more explanation, derivation, and geekery, check out my original post on the <a href="http://launchware.com/articles/acceptance-testing-asserting-sort-order">LaunchWare Blog</a> from last week!</p>
+
+<h2>The approach</h2>
+
+<p>There are many ways to do this, and I&#8217;ve tried lots of them in my work with LaunchWare. Most of them were ugly, clunky, brittle, or inefficient. Then I thought of a simple solution. Find the index (or position) of one piece of text (&#8220;this&#8221;) on the page and then find the index of the other (&#8220;that&#8221;) and assert like so:</p>
+
+<pre><code>page.body.index(this).should &lt; page.body.index(that)
+</code></pre>
+
+<h2>The gem</h2>
+
+<p>Simple enough right? So I made it into a custom rspec matcher, which I then gemified and web 2.0ified. It&#8217;s called orderly and it&#8217;s available at <code>gem install orderly</code> :) Also source code is on <a href="https://github.com/jmondo/orderly">Github</a> for your forking pleasure.</p>
+
+<p>Now you can write:</p>
+
+<pre><code>this.appears_before(that)
+</code></pre>
+
+<p>And as a bonus, it&#8217;s got built in error handling if this or that aren&#8217;t found on the page. It&#8217;ll even tell you which one is missing.</p>
+
+<p>Trust me, it&#8217;s fun. Soon you&#8217;ll be thinking <em>you know what would make this app better? Putting things in a strict, complicated order so that we stack orderly assertions on assertions on assertions</em>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -631,6 +701,10 @@ If you are a JetBlue Getaways customer, please call 1-800-JETBLUE (538-2583) opt
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/orderly-gem-assert-sort-order-in-acceptance-tests/">Orderly gem: Assert sort order in acceptance tests</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/">Using Github downloads for private dependencies (bonus: geolocation)</a>
       </li>
     
@@ -644,10 +718,6 @@ If you are a JetBlue Getaways customer, please call 1-800-JETBLUE (538-2583) opt
     
       <li class="post">
         <a href="/blog/7-reasons-why-i-blog-and-why-you-should-too/">7 Reasons Why I Blog And Why You Should Too</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/the-new-best-travel-story-ever-jetblue/">The new best travel story ever (JetBlue, big BUF)</a>
       </li>
     
   </ul>

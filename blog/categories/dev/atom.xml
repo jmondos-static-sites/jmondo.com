@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | jmondo]]></title>
   <link href="http://jmondo.github.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://jmondo.github.com/"/>
-  <updated>2012-07-21T19:59:37-04:00</updated>
+  <updated>2012-07-21T20:22:38-04:00</updated>
   <id>http://jmondo.github.com/</id>
   <author>
     <name><![CDATA[John Gesimondo]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Orderly gem: Assert sort order in acceptance tests]]></title>
+    <link href="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/"/>
+    <updated>2012-07-21T20:03:00-04:00</updated>
+    <id>http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests</id>
+    <content type="html"><![CDATA[<p>Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.</p>
+
+<p>For more explanation, derivation, and geekery, check out my original post on the <a href="http://launchware.com/articles/acceptance-testing-asserting-sort-order">LaunchWare Blog</a> from last week!</p>
+
+<h2>The approach</h2>
+
+<p>There are many ways to do this, and I've tried lots of them in my work with LaunchWare. Most of them were ugly, clunky, brittle, or inefficient. Then I thought of a simple solution. Find the index (or position) of one piece of text ("this") on the page and then find the index of the other ("that") and assert like so:</p>
+
+<pre><code>page.body.index(this).should &lt; page.body.index(that)
+</code></pre>
+
+<h2>The gem</h2>
+
+<p>Simple enough right? So I made it into a custom rspec matcher, which I then gemified and web 2.0ified. It's called orderly and it's available at <code>gem install orderly</code> :) Also source code is on <a href="https://github.com/jmondo/orderly">Github</a> for your forking pleasure.</p>
+
+<p>Now you can write:</p>
+
+<pre><code>this.appears_before(that)
+</code></pre>
+
+<p>And as a bonus, it's got built in error handling if this or that aren't found on the page. It'll even tell you which one is missing.</p>
+
+<p>Trust me, it's fun. Soon you'll be thinking <em>you know what would make this app better? Putting things in a strict, complicated order so that we stack orderly assertions on assertions on assertions</em>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Github downloads for private dependencies (bonus: geolocation)]]></title>
