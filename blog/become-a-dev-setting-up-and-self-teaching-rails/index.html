@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>jmondo - Become a dev: The road to setting up and teaching yourself Ruby on Rails</title>
+  <meta name="author" content="John Gesimondo">
+
+  
+  <meta name="description" content="Rails (or 'Ruby on Rails') is the framework. Analogy: it's like learning shorthand or IM speak in Spanish. It's kind of hard to learn shorthand if &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="jmondo" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33563876-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body >
+  <div class="wrapper">
+    <header class="site-header">
+      <h1><a href="/">John Gesimondo</a></h1>
+<p>A snapshot of my life</p>
+<img src="/images/cellphone_bw.jpeg" />
+
+
+      <!-- <nav><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jmondo.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+
+</nav> -->
+    </header>
+    <section>
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Become a Dev: The Road to Setting Up and Teaching Yourself Ruby on Rails</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-02T18:58:00-04:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>People ask me multiple times per week - &#8220;alright John, you convinced me to learn programming, but how do I get rails on my computer?&#8221; I&#8217;ve sent this email to about 25 people. Check it out, with some updates especially for you, dearest blog reader.</p>
+
+<h2>Setup</h2>
+
+<p>You need Ruby on Rails and some dependencies (like a database, git, etc) as well as a text editor to actually write code. Here&#8217;s how to install both on Mac and Windows.</p>
+
+<h3>Ruby on Rails (mac/win)</h3>
+
+<ol>
+<li><p>Go to railsinstaller.org (download the kit)</p>
+
+<p>   If you&#8217;re having trouble getting the mac version to download, try this <a href="https://github.com/railsinstaller/railsinstaller-nix/downloads">Download page</a></p></li>
+<li><p>Run the railsinstaller from step 1, defaults are fine</p></li>
+<li>Open a terminal or console window and run &#8220;gem install rails&#8221; to upgrade rails if necessary</li>
+</ol>
+
+
+<p>Techie notes about rails installer for mac: I was wary about using this, but a friend allowed me to use his out of the box mac as a guinea pig. Turns out, it installs the stuff the same way I would have told you to do it, using gcc without the full XCode and rvm (does a system install, installs the current version of ruby and rails). As you&#8217;ll learn below, it meshes well with homebrew when you need to install native dependencies down the line. So it&#8217;s both geek and n00b approved. That&#8217;s what makes it so awesome.</p>
+
+<h3>Editor</h3>
+
+<p>Sublime:
+Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.com/2">http://www.sublimetext.com/2</a></p>
+
+<p>Now go make something cool!</p>
+
+<h2>Learn, and make something cool!</h2>
+
+<p>If you&#8217;re just getting started, that project you&#8217;ve always wanted to make&#8230; you know, the one you couldn&#8217;t find a developer to create, so now you&#8217;re here hoping you&#8217;re a natural? I hate to be the one to break it to you. It&#8217;s not going to be that easy.</p>
+
+<p>You should first play along with a few almost-as-cool-but-still-not-as-cool-as-your-idea tutorials. While I applaud ambition, the time you spend on these tutorials will pay off 5-10x later (like in the next few days).</p>
+
+<p>The more perspective you gain about what you&#8217;re doing, the more the things you try will &#8220;click&#8221;. Make it a point to not to be a copy-paste monkey.</p>
+
+<p>Also understand that if you&#8217;re &#8220;tech savvy&#8221; this will still probably take you a few weeks to a month to get from zero to &#8220;novice programmer.&#8221; But once you get over that barrier, you can build stuff! So if you&#8217;re the maker type, the motivation is self perpetuating from there on in. Get through <a href="http://sethgodin.typepad.com/the_dip/">the dip</a>!</p>
+
+<p>Here&#8217;s a whole bunch of awesome resources for ruby, rails, and html/css.</p>
+
+<h4>HTML/CSS</h4>
+
+<p>You&#8217;re coding a web app. So you should probably know how web browsers work and display content. Lots of the code you write will be HTML/CSS, so you should know the basics before you proceed. Maybe even sprinkle on some javascript here, though not necessary for beginners.</p>
+
+<ul>
+<li><a href="http://www.w3schools.com/html/">http://www.w3schools.com/html/</a></li>
+<li><a href="http://htmldog.com/">http://htmldog.com/</a></li>
+<li><a href="http://html5doctor.com/">http://html5doctor.com/</a> Great reference for html5 selectors and what they should be used for</li>
+</ul>
+
+
+<h4>Ruby</h4>
+
+<p>Ruby is the language. Analogy: it&#8217;s like learning a foreign language, say Spanish.</p>
+
+<ul>
+<li><a href="http://ruby.bastardsbook.com/">http://ruby.bastardsbook.com/</a></li>
+<li><a href="http://ruby.bastardsbook.com/resources/">http://ruby.bastardsbook.com/resources/</a> (more resources)</li>
+<li><a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">http://ruby.railstutorial.org/ruby-on-rails-tutorial-book</a> - lots of cool tutorials including a twitter clone, covers zero to deployment (putting your site on the web)</li>
+</ul>
+
+
+<h4>Rails</h4>
+
+<p>Rails (or &#8216;Ruby on Rails&#8217;) is the framework. Analogy: it&#8217;s like learning shorthand or IM speak in Spanish. It&#8217;s kind of hard to learn shorthand if you don&#8217;t know the language, so you shouldn&#8217;t blow right by the Ruby stuff above.</p>
+
+<p>That being said, IM speak and shorthand only use the simple parts of the language, as does Rails, so you don&#8217;t need to be an expert in Ruby to start learning Rails.</p>
+
+<ul>
+<li><a href="http://net.tutsplus.com/tutorials/ruby/the-intro-to-rails-screencast-i-wish-i-had/">http://net.tutsplus.com/tutorials/ruby/the-intro-to-rails-screencast-i-wish-i-had/</a></li>
+<li><a href="http://www.codeschool.com/courses/rails-for-zombies">http://www.codeschool.com/courses/rails-for-zombies</a></li>
+<li><a href="http://www.codeschool.com/courses/rails-for-zombies-2">http://www.codeschool.com/courses/rails-for-zombies-2</a></li>
+<li><a href="http://pragprog.com/book/rails4/agile-web-development-with-rails">Agile Web Development With Rails</a> (a book - this is how I learned)</li>
+</ul>
+
+
+<p>If this tutorial doesn&#8217;t work verbatim or you strongly suggest some other resources be listed, please comment below.</p>
+
+<p>Happy learning!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">John Gesimondo</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-02T18:58:00-04:00" pubdate data-updated="true">Aug 2<span>nd</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/dev/'>dev</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/" data-via="" data-counturl="http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/orderly-gem-assert-sort-order-in-acceptance-tests/" title="Previous Post: Orderly gem: Assert sort order in acceptance tests">&laquo; Orderly gem: Assert sort order in acceptance tests</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/become-a-dev-setting-up-and-self-teaching-rails/">Become a dev: The road to setting up and teaching yourself Ruby on Rails</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/orderly-gem-assert-sort-order-in-acceptance-tests/">Orderly gem: Assert sort order in acceptance tests</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/">Using Github downloads for private dependencies (bonus: geolocation)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/on-postal-codes/">On Postal Codes</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/7-reasons-why-i-blog-and-why-you-should-too/">7 Reasons Why I Blog And Why You Should Too</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </section>
+    <footer class="site-footer"><p>
+  <small>Powered by <a href="http://octopress.org">Octopress</a> &mdash; <br />
+  Theme inspired by <a href="https://github.com/orderedlist">orderedlist</a></small>
+</p>
+
+</footer>
+  </div>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'jmondo';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/';
+        var disqus_url = 'http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="javascripts/bootstrap-transition.js"></script>
+<script src="javascripts/bootstrap-collapse.js"></script>
+
+
+</body>
+</html>
