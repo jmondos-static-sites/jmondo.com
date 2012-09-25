@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | jmondo]]></title>
   <link href="http://jmondo.github.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://jmondo.github.com/"/>
-  <updated>2012-08-02T21:04:48-04:00</updated>
+  <updated>2012-09-24T18:52:25-07:00</updated>
   <id>http://jmondo.github.com/</id>
   <author>
     <name><![CDATA[John Gesimondo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Become a dev: The road to setting up and teaching yourself Ruby on Rails]]></title>
     <link href="http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/"/>
-    <updated>2012-08-02T18:58:00-04:00</updated>
+    <updated>2012-08-02T18:58:00-07:00</updated>
     <id>http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails</id>
     <content type="html"><![CDATA[<p>People ask me multiple times per week - "alright John, you convinced me to learn programming, but how do I get rails on my computer?" I've sent this email to about 25 people. Check it out, with some updates especially for you, dearest blog reader.</p>
 
@@ -101,7 +101,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[Orderly gem: Assert sort order in acceptance tests]]></title>
     <link href="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/"/>
-    <updated>2012-07-21T20:03:00-04:00</updated>
+    <updated>2012-07-21T20:03:00-07:00</updated>
     <id>http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests</id>
     <content type="html"><![CDATA[<p>Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.</p>
 
@@ -132,7 +132,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[Using Github downloads for private dependencies (bonus: geolocation)]]></title>
     <link href="http://jmondo.github.com/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/"/>
-    <updated>2012-07-16T16:00:00-04:00</updated>
+    <updated>2012-07-16T16:00:00-07:00</updated>
     <id>http://jmondo.github.com/blog/using-github-downloads-for-private-dependencies-bonus-geolocation</id>
     <content type="html"><![CDATA[<h2>Geolocation</h2>
 

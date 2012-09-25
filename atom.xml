@@ -4,7 +4,7 @@
   <title><![CDATA[jmondo]]></title>
   <link href="http://jmondo.github.com/atom.xml" rel="self"/>
   <link href="http://jmondo.github.com/"/>
-  <updated>2012-08-02T21:04:48-04:00</updated>
+  <updated>2012-09-24T18:52:25-07:00</updated>
   <id>http://jmondo.github.com/</id>
   <author>
     <name><![CDATA[John Gesimondo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Become a dev: The road to setting up and teaching yourself Ruby on Rails]]></title>
     <link href="http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails/"/>
-    <updated>2012-08-02T18:58:00-04:00</updated>
+    <updated>2012-08-02T18:58:00-07:00</updated>
     <id>http://jmondo.github.com/blog/become-a-dev-setting-up-and-self-teaching-rails</id>
     <content type="html"><![CDATA[<p>People ask me multiple times per week - &#8220;alright John, you convinced me to learn programming, but how do I get rails on my computer?&#8221; I&#8217;ve sent this email to about 25 people. Check it out, with some updates especially for you, dearest blog reader.</p>
 
@@ -101,7 +101,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[Orderly gem: Assert sort order in acceptance tests]]></title>
     <link href="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/"/>
-    <updated>2012-07-21T20:03:00-04:00</updated>
+    <updated>2012-07-21T20:03:00-07:00</updated>
     <id>http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests</id>
     <content type="html"><![CDATA[<p>Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.</p>
 
@@ -132,7 +132,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[Using Github downloads for private dependencies (bonus: geolocation)]]></title>
     <link href="http://jmondo.github.com/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/"/>
-    <updated>2012-07-16T16:00:00-04:00</updated>
+    <updated>2012-07-16T16:00:00-07:00</updated>
     <id>http://jmondo.github.com/blog/using-github-downloads-for-private-dependencies-bonus-geolocation</id>
     <content type="html"><![CDATA[<h2>Geolocation</h2>
 
@@ -174,7 +174,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[On Postal Codes]]></title>
     <link href="http://jmondo.github.com/blog/on-postal-codes/"/>
-    <updated>2012-07-12T13:30:00-04:00</updated>
+    <updated>2012-07-12T13:30:00-07:00</updated>
     <id>http://jmondo.github.com/blog/on-postal-codes</id>
     <content type="html"><![CDATA[<p>I&#8217;m importing all US postal codes into a database for a geolocation app. While the data was importing I did some scanning. Fun facts:
 * Holtsville, NY is the only postal code that starts with 00. (00501)</p>
@@ -192,7 +192,7 @@ Install Sublime Text 2 for your platform from <a href="http://www.sublimetext.co
   <entry>
     <title type="html"><![CDATA[7 Reasons Why I Blog And Why You Should Too]]></title>
     <link href="http://jmondo.github.com/blog/7-reasons-why-i-blog-and-why-you-should-too/"/>
-    <updated>2012-07-11T23:18:00-04:00</updated>
+    <updated>2012-07-11T23:18:00-07:00</updated>
     <id>http://jmondo.github.com/blog/7-reasons-why-i-blog-and-why-you-should-too</id>
     <content type="html"><![CDATA[<p>If you&#8217;re wondering whether I&#8217;m making these up as I go along - yes. I definitely am. But watch them turn out to be pretty good.</p>
 
@@ -226,7 +226,7 @@ There you have it, the 7 reasons that I&#8217;m blogging. Because everyone likes
   <entry>
     <title type="html"><![CDATA[The new best travel story ever (JetBlue, big BUF)]]></title>
     <link href="http://jmondo.github.com/blog/the-new-best-travel-story-ever-jetblue/"/>
-    <updated>2012-07-11T00:06:00-04:00</updated>
+    <updated>2012-07-11T00:06:00-07:00</updated>
     <id>http://jmondo.github.com/blog/the-new-best-travel-story-ever-jetblue</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been known for my #traveltweets for a while now. Love &#8216;em or hate &#8216;em, I love &#8216;em. So if you follow me on twitter, you&#8217;re just going to have to sacrifice some screen real estate when I go on a trip&#8230; <a href="http://jmondo.github.com/cv.html">which I do often</a>. But this is the best one yet.</p>
 
@@ -343,7 +343,7 @@ If you are a JetBlue Getaways customer, please call 1-800-JETBLUE (538-2583) opt
   <entry>
     <title type="html"><![CDATA[Proposal: Napping in traffic]]></title>
     <link href="http://jmondo.github.com/blog/proposal-napping-in-traffic/"/>
-    <updated>2012-04-09T22:19:00-04:00</updated>
+    <updated>2012-04-09T22:19:00-07:00</updated>
     <id>http://jmondo.github.com/blog/proposal-napping-in-traffic</id>
     <content type="html"><![CDATA[<h2>Background</h2>
 
@@ -377,7 +377,7 @@ If you are a JetBlue Getaways customer, please call 1-800-JETBLUE (538-2583) opt
   <entry>
     <title type="html"><![CDATA[Uruguay/Argentina Reflection]]></title>
     <link href="http://jmondo.github.com/blog/uruguay-argentina-reflection/"/>
-    <updated>2012-04-03T22:32:00-04:00</updated>
+    <updated>2012-04-03T22:32:00-07:00</updated>
     <id>http://jmondo.github.com/blog/uruguay-argentina-reflection</id>
     <content type="html"><![CDATA[<p><img src="http://jmondo.github.com/images/Puente_Barra_Maldonado.jpeg" alt="uruguay bridge" />
 <img src="http://jmondo.github.com/images/Zakim_Bunker_Hill_Bridge_Southbound.jpeg" alt="zakim bridge boston" /></p>
@@ -417,7 +417,7 @@ If you are a JetBlue Getaways customer, please call 1-800-JETBLUE (538-2583) opt
   <entry>
     <title type="html"><![CDATA[in-flight power struggles (&amp; spanish ftw)]]></title>
     <link href="http://jmondo.github.com/blog/in-flight-power-struggles-and-spanish-ftw/"/>
-    <updated>2012-03-17T11:12:00-04:00</updated>
+    <updated>2012-03-17T11:12:00-07:00</updated>
     <id>http://jmondo.github.com/blog/in-flight-power-struggles-and-spanish-ftw</id>
     <content type="html"><![CDATA[<p>somewhere over the eastern united states (in transit between new york and santiago):</p>
 

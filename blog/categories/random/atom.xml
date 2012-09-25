@@ -4,7 +4,7 @@
   <title><![CDATA[Category: random | jmondo]]></title>
   <link href="http://jmondo.github.com/blog/categories/random/atom.xml" rel="self"/>
   <link href="http://jmondo.github.com/"/>
-  <updated>2012-08-02T21:04:48-04:00</updated>
+  <updated>2012-09-24T18:52:25-07:00</updated>
   <id>http://jmondo.github.com/</id>
   <author>
     <name><![CDATA[John Gesimondo]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[On Postal Codes]]></title>
     <link href="http://jmondo.github.com/blog/on-postal-codes/"/>
-    <updated>2012-07-12T13:30:00-04:00</updated>
+    <updated>2012-07-12T13:30:00-07:00</updated>
     <id>http://jmondo.github.com/blog/on-postal-codes</id>
     <content type="html"><![CDATA[<p>I'm importing all US postal codes into a database for a geolocation app. While the data was importing I did some scanning. Fun facts:
 * Holtsville, NY is the only postal code that starts with 00. (00501)</p>
