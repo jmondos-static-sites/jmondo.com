@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>jmondo - Orderly gem: Assert sort order in acceptance tests</title>
+  <title>jmondo - Physical Skills: Learning to Juggle</title>
   <meta name="author" content="John Gesimondo">
 
   
-  <meta name="description" content="Because sometimes you just need to assert that this appears before that on a page. There are many ways to do this, and I've tried lots of them in my &hellip;">
+  <meta name="description" content="I'm a developer. Using my fingers for anything but typing is generally a bad idea. But I decided to learn how to juggle. I could push myself &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/">
+  <link rel="canonical" href="http://jmondo.github.com/blog/physical-skills-learning-to-juggle/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -78,7 +78,7 @@
   
   <header>
     
-      <h1 class="entry-title">Orderly Gem: Assert Sort Order in Acceptance Tests</h1>
+      <h1 class="entry-title">Physical Skills: Learning to Juggle</h1>
     
     
       <p class="meta">
@@ -94,36 +94,66 @@
   
 
 
-<time datetime="2012-07-21T20:03:00-07:00" pubdate data-updated="true">Jul 21<span>st</span>, 2012</time>
+<time datetime="2012-11-27T20:39:00-08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Because sometimes you just need to assert that this appears before that on a page. Like when testing sort order.</p>
+<div class="entry-content"><h2>Here&#8217;s what I&#8217;ve learned:</h2>
 
-<p>For more explanation, derivation, and geekery, check out my original post on the <a href="http://launchware.com/articles/acceptance-testing-asserting-sort-order">LaunchWare Blog</a> from last week!</p>
+<ul>
+<li>there&#8217;s only so much you can do in a day before you hit diminishing returns, then zero returns, then negative returns</li>
+<li>quit while you still have the motivation to continue tomorrow</li>
+<li>the most drastic progress is made by sleeping</li>
+<li>publishing videos to twitter helps with motivation</li>
+<li>if you&#8217;re super stuck on a step, going to the next one might help bring some perspective</li>
+<li>if you do that, make sure you go back and perfect the last step, or you&#8217;ll never be good at the next</li>
+<li>keep rewatching the video; listen to the man when he says &#8220;there&#8217;s no rush.&#8221; - every time you succeed stop and think before starting again</li>
+<li>you can only train muscle memory by repeating the <em>correct</em> movements. this requires a lot of purposeful thinking during the early stages</li>
+<li>it&#8217;s amazing how much time you can spend repeating the wrong motions. it will literally add up to hours in what you could have done in minutes if you stopped to think</li>
+<li>this is the most determined i&#8217;ve felt in a while. it&#8217;s relatively easy to stick with such a simple thing. yet it&#8217;s complex enough to require sustained effort</li>
+<li>it will take until the end of the week to juggle, not 48 hours</li>
+</ul>
 
-<h2>The approach</h2>
 
-<p>There are many ways to do this, and I&#8217;ve tried lots of them in my work with LaunchWare. Most of them were ugly, clunky, brittle, or inefficient. Then I thought of a simple solution. Find the index (or position) of one piece of text (&#8220;this&#8221;) on the page and then find the index of the other (&#8220;that&#8221;) and assert like so:</p>
+<h2>Here&#8217;s what I&#8217;m assuming:</h2>
 
-<pre><code>page.body.index(this).should &lt; page.body.index(that)
-</code></pre>
+<ul>
+<li>it would be much easier for people with hand eye coordination. if you can shoot a basketball, you&#8217;re probably more likely to toss a ball and have it land in your other hand</li>
+<li>this will help me learn other hand/eye, coordination, pseudo-athletic, or useless skills faster later</li>
+<li>pubishing videos of work in progress steps will help me not feel embarassed/ashamed when I have to live up to my word that I can juggle later</li>
+<li>if there&#8217;s muscle memory for determination, i&#8217;m training it</li>
+<li>there will be no direct extrinsic benefits to learning how to juggle. I should choose a more useful skill next time</li>
+</ul>
 
-<h2>The gem</h2>
 
-<p>Simple enough right? So I made it into a custom rspec matcher, which I then gemified and web 2.0ified. It&#8217;s called orderly and it&#8217;s available at <code>gem install orderly</code> :) Also source code is on <a href="https://github.com/jmondo/orderly">Github</a> for your forking pleasure.</p>
+<h2>Tweeted progress videos #noshame</h2>
 
-<p>Now you can write:</p>
+<ul>
+<li><a href="http://twitter.yfrog.com/0gr1inbhjvnnwhdvdmvhtqzsz">Day 1</a></li>
+<li><a href="http://twitter.yfrog.com/ngu0bgyvjovzrwhqqdhesqnpz">Day 2</a></li>
+<li><a href="http://twitter.yfrog.com/em4emybkkrkeshuxfdbpdluhz">Day 3 (today)</a></li>
+<li>follow me <a href="http://twitter.com/jmondo">@jmondo</a></li>
+</ul>
 
-<pre><code>this.appears_before(that)
-</code></pre>
 
-<p>And as a bonus, it&#8217;s got built in error handling if this or that aren&#8217;t found on the page. It&#8217;ll even tell you which one is missing.</p>
+<h2>What&#8217;s next</h2>
 
-<p>Trust me, it&#8217;s fun. Soon you&#8217;ll be thinking <em>you know what would make this app better? Putting things in a strict, complicated order so that we stack orderly assertions on assertions on assertions</em>.</p>
+<ul>
+<li>I still need to complete a backflip on a trampoline. the annoying thing there is that there aren&#8217;t many useful intermediary steps.</li>
+</ul>
+
+
+<h2>The resources:</h2>
+
+<ul>
+<li>this and other things to learn: <a href="http://www.fourhourworkweek.com/blog/the-4-hour-chef-24-skills-in-48-hours/">24 skills in 48 hours</a></li>
+<li><a href="http://www.youtube.com/watch?v=T16_BVIFFPQ&amp;feature=player_embedded">the juggling video</a></li>
+<li><a href="http://www.target.com/p/men-s-juggling-balls/-/A-14189113">juggling balls at target</a> - note they&#8217;re in the rando-christmas-gifts-that-you-should-never-actually-buy-someone area</li>
+</ul>
+
 </div>
 
 
@@ -146,12 +176,12 @@
   
 
 
-<time datetime="2012-07-21T20:03:00-07:00" pubdate data-updated="true">Jul 21<span>st</span>, 2012</time>
+<time datetime="2012-11-27T20:39:00-08:00" pubdate data-updated="true">Nov 27<span>th</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/dev/'>dev</a>
+    <a class='category' href='/blog/categories/physical/'>physical</a>
   
 </span>
 
@@ -160,7 +190,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/" data-via="" data-counturl="http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jmondo.github.com/blog/physical-skills-learning-to-juggle/" data-via="" data-counturl="http://jmondo.github.com/blog/physical-skills-learning-to-juggle/" >Tweet</a>
   
   
   
@@ -169,10 +199,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/using-github-downloads-for-private-dependencies-bonus-geolocation/" title="Previous Post: Using Github downloads for private dependencies (bonus: geolocation)">&laquo; Using Github downloads for private dependencies (bonus: geolocation)</a>
+        <a class="basic-alignment left" href="/blog/become-a-dev-setting-up-and-self-teaching-rails/" title="Previous Post: Become a dev: The road to setting up and teaching yourself Ruby on Rails">&laquo; Become a dev: The road to setting up and teaching yourself Ruby on Rails</a>
       
-      
-        <a class="basic-alignment right" href="/blog/become-a-dev-setting-up-and-self-teaching-rails/" title="Next Post: Become a dev: The road to setting up and teaching yourself Ruby on Rails">Become a dev: The road to setting up and teaching yourself Ruby on Rails &raquo;</a>
       
     </p>
   </footer>
@@ -239,8 +267,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/';
-        var disqus_url = 'http://jmondo.github.com/blog/orderly-gem-assert-sort-order-in-acceptance-tests/';
+        var disqus_identifier = 'http://jmondo.github.com/blog/physical-skills-learning-to-juggle/';
+        var disqus_url = 'http://jmondo.github.com/blog/physical-skills-learning-to-juggle/';
         var disqus_script = 'embed.js';
       
     (function () {
